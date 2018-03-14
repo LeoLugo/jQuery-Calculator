@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<form>
+		<input type="text" name="display" class="medbutton no" id="num_one">
+		<input type="text" name="display" class="medbutton no" id="num_two">
+		<div class="largebutton no" id="answer"></div>
+		<input type="button" class="smallbutton op" id="divide" value="&#247" onclick="Divide()">
+		<input type="button" class="smallbutton op" id="multiply" value="X" onclick="Multiply()">
+		<input type="button" class="smallbutton op" id="subtract" value="&#151" onclick="Subtract()">
+		<input type="button" class="smallbutton op" id="add" value="&#43" onclick="Add()">
+	</form>
+
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
