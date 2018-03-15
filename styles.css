@@ -20,6 +20,7 @@ form {
 	position: absolute;
 	top: 100px;
 	left: 500px;
+	color: black;
 
 }
 
@@ -38,7 +39,6 @@ form {
 
 .no {
 	background-color: #68B25B;
-	color: white;
 }
 
 input {
